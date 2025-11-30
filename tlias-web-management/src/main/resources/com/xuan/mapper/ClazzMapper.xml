@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuan.mapper.ClazzMapper">
+
+    <select id="list" resultType="com.xuan.pojo.Clazz">
+        SELECT c.id, c.name, c.room, c.begin_date, c.end_date, c.master_id, c.subject, c.create_time, c.update_time,
+               e.name AS master_name,
+               CASE 
+                   WHEN c.begin_date > CURDATE() THEN '未开班'
+                   WHEN c.begin_date &lt;= CURDATE() AND c.end_date >= CURDATE() THEN '在读'
+                   WHEN c.end_date &lt; CURDATE() THEN '已结课'
+                   ELSE '未知'
+               END AS status
+        FROM clazz c
+        LEFT JOIN emp e ON c.master_id = e.id
+        <where>
+            <if test="name != null and name != ''">
+                and c.name like concat('%', #{name}, '%')
+            </if>
+            <if test="masterId != null">
+                and c.master_id = #{masterId}
+            </if>
+            <if test="beginDate != null">
+                and c.begin_date >= #{beginDate}
+            </if>
+            <if test="endDate != null">
+                and c.end_date &lt;= #{endDate}
+            </if>
+        </where>
+        order by c.update_time desc
+    </select>
+    
+    <!-- 根据id删除对应的班级 -->
+    <delete id="deleteById">
+        delete from clazz where id = #{id}
+    </delete>
+    
+    <!-- 增加班级 -->
+    <insert id="insert" parameterType="com.xuan.pojo.Clazz">
+        insert into clazz (name, room, begin_date, end_date, master_id, subject, create_time, update_time)
+        values (#{name}, #{room}, #{beginDate}, #{endDate}, #{masterId}, #{subject}, #{createTime}, #{updateTime})
+    </insert>
+    
+    <!-- 根据id查询班级 -->
+    <select id="getById" resultType="com.xuan.pojo.Clazz">
+        SELECT c.id, c.name, c.room, c.begin_date, c.end_date, c.master_id, c.subject, c.create_time, c.update_time,
+               e.name AS master_name,
+               CASE 
+                   WHEN c.begin_date > CURDATE() THEN '未开班'
+                   WHEN c.begin_date &lt;= CURDATE() AND c.end_date >= CURDATE() THEN '在读'
+                   WHEN c.end_date &lt; CURDATE() THEN '已结课'
+                   ELSE '未知'
+               END AS status
+        FROM clazz c
+        LEFT JOIN emp e ON c.master_id = e.id
+        WHERE c.id=#{id}
+    </select>
+    
+    <!-- 修改班级 -->
+    <update id="update" parameterType="com.xuan.pojo.Clazz">
+        update clazz 
+        set name=#{name},room=#{room},begin_date=#{beginDate},end_date=#{endDate},master_id=#{masterId},subject=#{subject} 
+        where id=#{id}
+    </update>
+</mapper>

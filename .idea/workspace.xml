@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea62540d-842d-46da-8f9f-ecc01df9d0e8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Maven\apache-maven-3.9.11-bin\apache-maven-3.9.11" />
+        <option name="localRepository" value="D:\CodeEnvironment\Maven\apache-maven-3.9.11\mvn_repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.11-bin\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="21" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="35aU9z5OPxRTLC4XpEsncXHwnPD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.tlias-web-management [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.TliasWebManagementApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/CodingFiles/Java/JavaWeb/web-ai-project04",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebAICode\web-ai-project04\tlias-utils\src\main\java\com\xuan" />
+      <recent name="D:\WebAICode\web-ai-project04\tlias-pojo\src\main\java\com\xuan" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TliasWebManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tlias-web-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuan.TliasWebManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea62540d-842d-46da-8f9f-ecc01df9d0e8" name="Changes" comment="" />
+      <created>1763347538121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763347538121</updated>
+      <workItem from="1763347539293" duration="1350000" />
+      <workItem from="1763348920907" duration="358000" />
+      <workItem from="1763349306921" duration="208000" />
+      <workItem from="1763352072930" duration="1768000" />
+      <workItem from="1763353871813" duration="232000" />
+      <workItem from="1763354137552" duration="596000" />
+      <workItem from="1763354750352" duration="507000" />
+      <workItem from="1763365837916" duration="2888000" />
+      <workItem from="1763370894666" duration="776000" />
+      <workItem from="1763371854883" duration="2125000" />
+      <workItem from="1763374002965" duration="385000" />
+      <workItem from="1763374406059" duration="419000" />
+      <workItem from="1763374841136" duration="315000" />
+      <workItem from="1763376575137" duration="269000" />
+      <workItem from="1763377044609" duration="2715000" />
+      <workItem from="1763527636860" duration="897000" />
+      <workItem from="1763632342491" duration="155000" />
+      <workItem from="1763633677960" duration="28000" />
+      <workItem from="1763811859828" duration="68000" />
+      <workItem from="1763823803283" duration="225000" />
+      <workItem from="1763824046900" duration="276000" />
+      <workItem from="1763876574868" duration="125000" />
+      <workItem from="1763910952528" duration="12000" />
+      <workItem from="1764350833376" duration="23000" />
+      <workItem from="1764396524448" duration="21000" />
+      <workItem from="1764396553440" duration="70000" />
+      <workItem from="1764396631048" duration="22000" />
+      <workItem from="1764397653756" duration="99000" />
+      <workItem from="1764400058755" duration="68000" />
+      <workItem from="1764400309689" duration="61000" />
+      <workItem from="1764400388307" duration="82000" />
+      <workItem from="1764400487982" duration="251000" />
+      <workItem from="1764401791878" duration="77000" />
+      <workItem from="1764401885617" duration="2439000" />
+      <workItem from="1764404364225" duration="2577000" />
+      <workItem from="1764407310350" duration="39000" />
+      <workItem from="1764490279049" duration="23000" />
+      <workItem from="1764490345959" duration="1000" />
+      <workItem from="1764501407059" duration="174000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

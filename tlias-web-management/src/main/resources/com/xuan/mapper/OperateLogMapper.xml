@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuan.mapper.OperateLogMapper">
+    <!--分页查询当前员工操作日志-->
+    <select id="list" resultType="com.xuan.pojo.OperateLog">
+        SELECT
+            o.*,
+            e.name AS operateEmpName
+        FROM operate_log o
+        LEFT JOIN emp e ON o.operate_emp_id = e.id
+        <where>
+            <if test="className != null and className != ''">
+                AND o.class_name LIKE CONCAT('%', #{className}, '%')
+            </if>
+            <if test="methodName != null and methodName != ''">
+                AND o.method_name LIKE CONCAT('%', #{methodName}, '%')
+            </if>
+            <if test="operateEmpId != null">
+                AND o.operate_emp_id = #{operateEmpId}
+            </if>
+            <if test="begin != null">
+                AND o.operate_time >= #{begin}
+            </if>
+            <if test="end != null">
+                AND o.operate_time &lt;= #{end}
+            </if>
+        </where>
+        ORDER BY o.operate_time DESC
+    </select>
+    
+    <!--插入日志数据-->
+    <insert id="insert" parameterType="com.xuan.pojo.OperateLog">
+        insert into operate_log (operate_emp_id, operate_time, class_name, method_name, method_params, return_value, cost_time) 
+        values (#{operateEmpId}, #{operateTime}, #{className}, #{methodName}, #{methodParams}, #{returnValue}, #{costTime})
+    </insert>
+</mapper>

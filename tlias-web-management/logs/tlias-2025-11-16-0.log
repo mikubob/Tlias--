@@ -1,0 +1,12 @@
+2025-11-16 13:55:45.942 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.xuan.TliasWebManagementApplicationTests]: TliasWebManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-16 13:55:46.016 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.xuan.TliasWebManagementApplication for test class com.xuan.TliasWebManagementApplicationTests
+2025-11-16 13:55:46.303 [main] INFO  com.xuan.TliasWebManagementApplicationTests-Starting TliasWebManagementApplicationTests using Java 21.0.8 with PID 19972 (started by xuan in D:\WebAICode\web-ai-project02\tlias-web-management)
+2025-11-16 13:55:46.304 [main] INFO  com.xuan.TliasWebManagementApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2025-11-16 13:55:48.989 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-11-16 13:55:49.088 [main] INFO  com.xuan.TliasWebManagementApplicationTests-Started TliasWebManagementApplicationTests in 2.991 seconds (process running for 4.031)
+2025-11-16 13:56:34.066 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.xuan.TliasWebManagementApplicationTests]: TliasWebManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-16 13:56:34.134 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.xuan.TliasWebManagementApplication for test class com.xuan.TliasWebManagementApplicationTests
+2025-11-16 13:56:34.417 [main] INFO  com.xuan.TliasWebManagementApplicationTests-Starting TliasWebManagementApplicationTests using Java 21.0.8 with PID 3884 (started by xuan in D:\WebAICode\web-ai-project02\tlias-web-management)
+2025-11-16 13:56:34.418 [main] INFO  com.xuan.TliasWebManagementApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2025-11-16 13:56:37.078 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-11-16 13:56:37.184 [main] INFO  com.xuan.TliasWebManagementApplicationTests-Started TliasWebManagementApplicationTests in 2.961 seconds (process running for 3.885)

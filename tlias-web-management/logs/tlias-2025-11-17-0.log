@@ -1,0 +1,23 @@
+2025-11-17 18:10:03.325 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.xuan.TliasWebManagementApplicationTests]: TliasWebManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-17 18:17:59.124 [main] INFO  com.xuan.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.8 with PID 5196 (D:\WebAICode\web-ai-project04\tlias-web-management\target\classes started by xuan in D:\WebAICode\web-ai-project04\tlias-web-management)
+2025-11-17 18:17:59.125 [main] INFO  com.xuan.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-11-17 18:17:59.921 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-11-17 18:17:59.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-17 18:17:59.931 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-11-17 18:17:59.932 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-17 18:17:59.970 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-11-17 18:17:59.970 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 814 ms
+2025-11-17 18:18:00.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-11-17 18:18:00.542 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path ''
+2025-11-17 18:18:00.547 [main] INFO  com.xuan.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.696 seconds (process running for 2.011)
+2025-11-17 18:19:56.128 [main] INFO  com.xuan.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.8 with PID 23492 (D:\WebAICode\web-ai-project04\tlias-web-management\target\classes started by xuan in D:\WebAICode\web-ai-project04\tlias-web-management)
+2025-11-17 18:19:56.129 [main] INFO  com.xuan.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-11-17 18:19:56.820 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8081 (http)
+2025-11-17 18:19:56.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8081"]
+2025-11-17 18:19:56.829 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-11-17 18:19:56.829 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-17 18:19:56.870 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-11-17 18:19:56.871 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 712 ms
+2025-11-17 18:19:57.378 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8081"]
+2025-11-17 18:19:57.391 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8081 (http) with context path ''
+2025-11-17 18:19:57.396 [main] INFO  com.xuan.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.498 seconds (process running for 1.786)

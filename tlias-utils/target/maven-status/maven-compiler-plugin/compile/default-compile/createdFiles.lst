@@ -1,0 +1,4 @@
+com\xuan\utils\AliyunOSSOperator.class
+com\xuan\utils\AliyunOSSProperties.class
+com\xuan\utils\ThreadLocalUtil.class
+com\xuan\utils\JwtUtils.class

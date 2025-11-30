@@ -1,0 +1,17 @@
+com\xuan\pojo\ClazzCountOption.class
+com\xuan\pojo\ClazzQueryParam.class
+com\xuan\pojo\Result.class
+com\xuan\pojo\EmpLog.class
+com\xuan\pojo\Student.class
+com\xuan\pojo\EmpQueryParam.class
+com\xuan\pojo\EmpLoginLog.class
+com\xuan\pojo\OperateLog.class
+com\xuan\pojo\LoginInfo.class
+com\xuan\pojo\EmpExpr.class
+com\xuan\pojo\JobOption.class
+com\xuan\pojo\Emp.class
+com\xuan\pojo\StudentQueryParam.class
+com\xuan\pojo\Clazz.class
+com\xuan\pojo\Dept.class
+com\xuan\pojo\OperateQueryParam.class
+com\xuan\pojo\PageResult.class
